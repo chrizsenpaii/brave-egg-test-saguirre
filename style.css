@@ -1,0 +1,56 @@
+body {
+  background-image: url("img/bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.brand-container {
+  background-color: #f8f9fa; /* Light background color */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.brand-logo {
+  margin: 0 10px; /* Adds space between logos */
+}
+.story {
+  background-image: url("img/story-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navbar-custom.scrolled {
+  transition: ease-in;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+}
+.do {
+  background-image: url("img/do-bg.png");
+  background-size: cover;
+  background-repeat: repeat;
+}
+.faq-section {
+  background-color: white;
+
+  background-repeat: no-repeat;
+}
+.process {
+  background-image: url("img/process-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.process-section {
+  position: relative;
+}
+
+.process-card {
+  position: relative;
+  z-index: 1;
+}
+
+.process-step {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  z-index: 2;
+}
